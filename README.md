@@ -7,6 +7,37 @@
 
 # Diagrama UML
 
-<img width="751" height="711" alt="Captura de tela 2026-05-28 114145" src="https://github.com/user-attachments/assets/18fe1efd-64eb-45e1-ac32-745b6d310328" />
+classDiagram
+    class customer {
+        -string name_
+        -string address_
+        +get_name() string
+    }
+
+    class product {
+        -int id_
+        -string name_
+        -double price_
+        +get_price() double
+        +get_name() string
+    }
+
+    class order_item {
+        -shared_ptr~product~ product_
+        -int quantity_
+        +calculate_subtotal() double
+    }
+
+    class order {
+        -int id_
+        -shared_ptr~customer~ customer_
+        -vector~unique_ptr~order_item~~ items_
+        +add_item(shared_ptr~product~, int) void
+        +calculate_total() double
+    }
+
+    order "1" *-- "1..*" order_item : Composição (contém)
+    order "1" o-- "1" customer : Agregação (pertence a)
+    order_item "*" o-- "1" product : Agregação (referencia)
 
 
