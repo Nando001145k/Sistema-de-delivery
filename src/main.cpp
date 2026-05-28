@@ -11,6 +11,7 @@ int main() {
     std::cout << "[ Testando logica do Cliente ]\n";
     std::cout << cli->format_shipping_label() << "\n\n";
 
+
     std::cout << "[ Testando logica do Produto ]\n";
     std::cout << "Preco normal: R$ " << prod->get_price() << "\n";
     prod->apply_discount(10.0); // 10% de desconto

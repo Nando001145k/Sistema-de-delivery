@@ -1,0 +1,3 @@
+/workspaces/Sistema-de-delivery/build/CMakeFiles/Sistema_Delivery.dir
+/workspaces/Sistema-de-delivery/build/CMakeFiles/edit_cache.dir
+/workspaces/Sistema-de-delivery/build/CMakeFiles/rebuild_cache.dir

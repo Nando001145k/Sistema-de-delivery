@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -fsanitize=address,undefined CMakeFiles/Sistema_Delivery.dir/src/main.cpp.o CMakeFiles/Sistema_Delivery.dir/src/customer.cpp.o CMakeFiles/Sistema_Delivery.dir/src/product.cpp.o CMakeFiles/Sistema_Delivery.dir/src/order_item.cpp.o CMakeFiles/Sistema_Delivery.dir/src/order.cpp.o -o Sistema_Delivery 
