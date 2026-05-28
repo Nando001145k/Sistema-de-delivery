@@ -2,14 +2,13 @@
 #include "product.hpp"
 #include "order.hpp"
 #include <iostream>
-#include <memory>
 
 int main() {
     std::cout << "--- Lancheira Voadora ---\n\n";
 
-    // Instanciando os objetos (Demonstrando as logicas de Customer e Product)
-    auto cli = std::make_shared<customer>("Luis Fernando", "Rua do Caju, N 15");
-    auto prod = std::make_shared<product>(101, "Cachorro-Quente Classico", 12.50);
+    // Instanciando os objetos independentes com raw pointers (new)
+    customer* cli = new customer("Luis Fernando", "Rua do Caju, N 15");
+    product* prod = new product(101, "Cachorro-Quente Classico", 12.50);
 
     std::cout << "[ Testando logica do Cliente ]\n";
     std::cout << cli->format_shipping_label() << "\n\n";
@@ -29,11 +28,15 @@ int main() {
         std::cout << "Total do pedido: R$ " << pedido.calculate_total() << "\n";
         
         std::cout << "\n[ Fim do bloco - Destruindo o pedido ]\n";
-    } // O pedido sai de escopo e eh destruido junto com os itens (Composicao)
+    } // O pedido sai de escopo e os itens sao deletados no destrutor dele
 
     std::cout << "\n[ Fora do bloco ]\n";
     std::cout << "Cliente " << cli->get_name() << " e Produto " << prod->get_name() 
               << " continuam existindo (Agregacao).\n";
+
+    // Liberando a memoria dos agregados no final do programa
+    delete cli;
+    delete prod;
 
     return 0;
 }

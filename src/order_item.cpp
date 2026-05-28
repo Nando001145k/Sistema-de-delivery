@@ -1,7 +1,7 @@
 #include "order_item.hpp"
 #include <iostream>
 
-order_item::order_item(std::shared_ptr<product> prod, int quantity)
+order_item::order_item(product* prod, int quantity)
     : product_(prod), quantity_(quantity) {
     std::cout << "Item (" << product_->get_name() << ") criado.\n";
 }

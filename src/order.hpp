@@ -3,19 +3,17 @@
 #include "customer.hpp"
 #include "order_item.hpp"
 #include <vector>
-#include <memory>
 
 class order {
 private:
     int id_;
-    std::shared_ptr<customer> customer_; // Agregacao
-    std::vector<std::unique_ptr<order_item>> items_; // Composicao (dono exclusivo)
+    customer* customer_; 
+    std::vector<order_item*> items_;
 public:
-    order(int id, std::shared_ptr<customer> cust);
-    
+    order(int id, customer* cust);
     ~order(); 
-    
-    void add_item(std::shared_ptr<product> prod, int quantity);
+
+    void add_item(product* prod, int quantity);
     double calculate_total() const;
 };
 #endif
