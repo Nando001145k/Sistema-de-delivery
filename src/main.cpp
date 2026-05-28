@@ -4,9 +4,7 @@
 #include <iostream>
 
 int main() {
-    std::cout << "--- Lancheira Voadora ---\n\n";
-
-    // Instanciando os objetos independentes com raw pointers (new)
+    std::cout << "--- sistema delivery ---\n\n";
     customer* cli = new customer("Luis Fernando", "Rua do Caju, N 15");
     product* prod = new product(101, "Cachorro-Quente Classico", 12.50);
 
@@ -17,8 +15,6 @@ int main() {
     std::cout << "Preco normal: R$ " << prod->get_price() << "\n";
     prod->apply_discount(10.0); // 10% de desconto
     std::cout << "Preco com desconto (10%): R$ " << prod->get_price() << "\n\n";
-
-    // Bloco para demonstrar os destrutores (Ciclo de Vida / Composicao)
     {
         std::cout << "[ Iniciando Pedido ]\n";
         order pedido(1, cli);
@@ -28,13 +24,12 @@ int main() {
         std::cout << "Total do pedido: R$ " << pedido.calculate_total() << "\n";
         
         std::cout << "\n[ Fim do bloco - Destruindo o pedido ]\n";
-    } // O pedido sai de escopo e os itens sao deletados no destrutor dele
+    }
 
     std::cout << "\n[ Fora do bloco ]\n";
     std::cout << "Cliente " << cli->get_name() << " e Produto " << prod->get_name() 
               << " continuam existindo (Agregacao).\n";
 
-    // Liberando a memoria dos agregados no final do programa
     delete cli;
     delete prod;
 
