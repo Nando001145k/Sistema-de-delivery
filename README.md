@@ -7,6 +7,7 @@
 
 # Diagrama UML
 
+```mermaid
 classDiagram
     class customer {
         -string name_
@@ -41,3 +42,8 @@ classDiagram
     order_item "*" o-- "1" product : Agregação (referencia)
 
 
+#Relações e Ciclo de Vida
+
+**Composição** (order -- order_item): A classe dona (order) cria os itens dependentes internamente. Se o pedido for destruído, os itens do pedido deixam de existir.
+
+**Agregação** (order o-- customer e order_item o-- product): Os clientes e produtos existem independentemente no sistema de delivery, mesmo que um pedido específico seja deletado.
