@@ -24,23 +24,22 @@ classDiagram
     }
 
     class order_item {
-        -shared_ptr~product~ product_
+        -product product_
         -int quantity_
         +calculate_subtotal() double
     }
 
     class order {
         -int id_
-        -shared_ptr~customer~ customer_
-        -vector~unique_ptr~order_item~~ items_
-        +add_item(shared_ptr~product~, int) void
+        -customer customer_
+        -vector items_
+        +add_item(product, int) void
         +calculate_total() double
     }
 
-    order "1" *-- "1..*" order_item : Composição (contém)
-    order "1" o-- "1" customer : Agregação (pertence a)
-    order_item "*" o-- "1" product : Agregação (referencia)
-    
+    order "1" *-- "1..*" order_item : Composicao
+    order "1" o-- "1" customer : Agregacao
+    order_item "*" o-- "1" product : Agregacao
 ```
 
 #Relações e Ciclo de Vida
