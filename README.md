@@ -40,7 +40,8 @@ classDiagram
     order "1" *-- "1..*" order_item : Composição (contém)
     order "1" o-- "1" customer : Agregação (pertence a)
     order_item "*" o-- "1" product : Agregação (referencia)
-
+    
+```
 
 #Relações e Ciclo de Vida
 
