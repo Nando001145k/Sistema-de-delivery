@@ -11,5 +11,5 @@ order_item::~order_item() {
 }
 
 double order_item::calculate_subtotal() const {
-    return product_->get_price() * quantity_;
+    return product_->calculate_price() * quantity_;
 }

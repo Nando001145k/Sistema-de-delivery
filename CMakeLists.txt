@@ -9,6 +9,7 @@ if(CMAKE_BUILD_TYPE STREQUAL "Debug")
     add_link_options(-fsanitize=address,undefined)
 endif()
 
+# Executável principal
 add_executable(Sistema_Delivery
     src/main.cpp
     src/customer.cpp
@@ -16,5 +17,25 @@ add_executable(Sistema_Delivery
     src/order_item.cpp
     src/order.cpp
 )
-
 target_include_directories(Sistema_Delivery PRIVATE src)
+
+# Questão 4 (A): Configuração do Catch2 via FetchContent
+include(FetchContent)
+FetchContent_Declare(
+  Catch2
+  GIT_REPOSITORY https://github.com/catchorg/Catch2.git
+  GIT_TAG        v3.5.2
+)
+FetchContent_MakeAvailable(Catch2)
+
+add_executable(testes 
+    tests/test_tp2.cpp
+    src/product.cpp
+    # adicione outros arquivos .cpp do domínio aqui se necessário nos testes
+)
+target_include_directories(testes PRIVATE src)
+target_link_libraries(testes PRIVATE Catch2::Catch2WithMain)
+
+include(CTest)
+include(Catch)
+catch_discover_tests(testes)

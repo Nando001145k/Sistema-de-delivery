@@ -1,0 +1,7 @@
+add_test( [==[Hierarquia - Construtor Base e Derivada]==] /workspaces/Sistema-de-delivery/build/testes [==[Hierarquia - Construtor Base e Derivada]==]  )
+set_tests_properties( [==[Hierarquia - Construtor Base e Derivada]==] PROPERTIES WORKING_DIRECTORY /workspaces/Sistema-de-delivery/build)
+add_test( [==[Polimorfismo - Calculo exato de precos dinamicos]==] /workspaces/Sistema-de-delivery/build/testes [==[Polimorfismo - Calculo exato de precos dinamicos]==]  )
+set_tests_properties( [==[Polimorfismo - Calculo exato de precos dinamicos]==] PROPERTIES WORKING_DIRECTORY /workspaces/Sistema-de-delivery/build)
+add_test( [==[Interface Pura - Validacao de Contrato]==] /workspaces/Sistema-de-delivery/build/testes [==[Interface Pura - Validacao de Contrato]==]  )
+set_tests_properties( [==[Interface Pura - Validacao de Contrato]==] PROPERTIES WORKING_DIRECTORY /workspaces/Sistema-de-delivery/build)
+set( testes_TESTS [==[Hierarquia - Construtor Base e Derivada]==] [==[Polimorfismo - Calculo exato de precos dinamicos]==] [==[Interface Pura - Validacao de Contrato]==])

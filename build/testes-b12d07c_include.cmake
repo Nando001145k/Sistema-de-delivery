@@ -1,0 +1,5 @@
+if(EXISTS "/workspaces/Sistema-de-delivery/build/testes-b12d07c_tests.cmake")
+  include("/workspaces/Sistema-de-delivery/build/testes-b12d07c_tests.cmake")
+else()
+  add_test(testes_NOT_BUILT-b12d07c testes_NOT_BUILT-b12d07c)
+endif()

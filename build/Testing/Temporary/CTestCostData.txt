@@ -1,0 +1,7 @@
+Hierarquia 0 0
+Polimorfismo 0 0
+Interface 0 0
+Hierarquia - Construtor Base e Derivada 1 0.0359824
+Polimorfismo - Calculo exato de precos dinamicos 1 0.0366141
+Interface Pura - Validacao de Contrato 1 0.0380527
+---
