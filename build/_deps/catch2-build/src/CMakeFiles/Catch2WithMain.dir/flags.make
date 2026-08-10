@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/workspaces/Sistema-de-delivery/build/_deps/catch2-src/src/catch2/.. -I/workspaces/Sistema-de-delivery/build/_deps/catch2-build/generated-includes
 
-CXX_FLAGS = -g -std=gnu++17 -Wall -Wextra -fsanitize=address,undefined -g -ffile-prefix-map=/workspaces/Sistema-de-delivery/build/_deps/catch2-src/=
+CXX_FLAGS = -g -std=gnu++20 -Wall -Wextra -fsanitize=address,undefined -g -ffile-prefix-map=/workspaces/Sistema-de-delivery/build/_deps/catch2-src/=
 

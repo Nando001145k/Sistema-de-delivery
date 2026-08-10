@@ -1,0 +1,23 @@
+{
+  "items": [
+    {
+      "id": 201,
+      "name": "Lasanha Bolonhesa",
+      "price": 40.0,
+      "type": "food"
+    },
+    {
+      "id": 202,
+      "name": "Refrigerante Cola",
+      "price": 8.0,
+      "type": "beverage"
+    },
+    {
+      "id": 203,
+      "name": "Sushi Combo",
+      "price": 90.0,
+      "type": "food"
+    }
+  ],
+  "version": 1
+}

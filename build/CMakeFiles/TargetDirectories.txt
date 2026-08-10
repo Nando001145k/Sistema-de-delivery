@@ -31,6 +31,9 @@
 /workspaces/Sistema-de-delivery/build/CMakeFiles/test.dir
 /workspaces/Sistema-de-delivery/build/CMakeFiles/edit_cache.dir
 /workspaces/Sistema-de-delivery/build/CMakeFiles/rebuild_cache.dir
+/workspaces/Sistema-de-delivery/build/_deps/json-build/CMakeFiles/test.dir
+/workspaces/Sistema-de-delivery/build/_deps/json-build/CMakeFiles/edit_cache.dir
+/workspaces/Sistema-de-delivery/build/_deps/json-build/CMakeFiles/rebuild_cache.dir
 /workspaces/Sistema-de-delivery/build/_deps/catch2-build/CMakeFiles/test.dir
 /workspaces/Sistema-de-delivery/build/_deps/catch2-build/CMakeFiles/edit_cache.dir
 /workspaces/Sistema-de-delivery/build/_deps/catch2-build/CMakeFiles/rebuild_cache.dir

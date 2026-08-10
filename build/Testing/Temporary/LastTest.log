@@ -1,40 +1,34 @@
-Start testing: Jul 16 17:01 UTC
+Start testing: Aug 10 00:48 UTC
 ----------------------------------------------------------
-1/3 Testing: Hierarquia - Construtor Base e Derivada
-1/3 Test: Hierarquia - Construtor Base e Derivada
-Command: "/workspaces/Sistema-de-delivery/build/testes" "Hierarquia - Construtor Base e Derivada"
+1/4 Testing: Q1 - Generic Registry e Concept calculable
+1/4 Test: Q1 - Generic Registry e Concept calculable
+Command: "/workspaces/Sistema-de-delivery/build/testes" "Q1 - Generic Registry e Concept calculable"
 Directory: /workspaces/Sistema-de-delivery/build
-"Hierarquia - Construtor Base e Derivada" start time: Jul 16 17:01 UTC
+"Q1 - Generic Registry e Concept calculable" start time: Aug 10 00:48 UTC
 Output:
 ----------------------------------------------------------
-Filters: "Hierarquia - Construtor Base e Derivada"
-Randomness seeded to: 4136485560
-[Destrutor Derivada] food destruido: Teste Comida
-[Destrutor Base] product destruido: Teste Comida
+Filters: "Q1 - Generic Registry e Concept calculable"
+Randomness seeded to: 2351532882
 ===============================================================================
-All tests passed (1 assertion in 1 test case)
+All tests passed (2 assertions in 1 test case)
 
 <end of output>
-Test time =   0.04 sec
+Test time =   0.31 sec
 ----------------------------------------------------------
 Test Passed.
-"Hierarquia - Construtor Base e Derivada" end time: Jul 16 17:01 UTC
-"Hierarquia - Construtor Base e Derivada" time elapsed: 00:00:00
+"Q1 - Generic Registry e Concept calculable" end time: Aug 10 00:48 UTC
+"Q1 - Generic Registry e Concept calculable" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/3 Testing: Polimorfismo - Calculo exato de precos dinamicos
-2/3 Test: Polimorfismo - Calculo exato de precos dinamicos
-Command: "/workspaces/Sistema-de-delivery/build/testes" "Polimorfismo - Calculo exato de precos dinamicos"
+2/4 Testing: Q2 - Excecoes e std::optional
+2/4 Test: Q2 - Excecoes e std::optional
+Command: "/workspaces/Sistema-de-delivery/build/testes" "Q2 - Excecoes e std::optional"
 Directory: /workspaces/Sistema-de-delivery/build
-"Polimorfismo - Calculo exato de precos dinamicos" start time: Jul 16 17:01 UTC
+"Q2 - Excecoes e std::optional" start time: Aug 10 00:48 UTC
 Output:
 ----------------------------------------------------------
-Filters: "Polimorfismo - Calculo exato de precos dinamicos"
-Randomness seeded to: 2912875421
-[Destrutor Derivada] food destruido: Lanche
-[Destrutor Base] product destruido: Lanche
-[Destrutor Derivada] beverage destruido: Agua
-[Destrutor Base] product destruido: Agua
+Filters: "Q2 - Excecoes e std::optional"
+Randomness seeded to: 2547220859
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -42,30 +36,48 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"Polimorfismo - Calculo exato de precos dinamicos" end time: Jul 16 17:01 UTC
-"Polimorfismo - Calculo exato de precos dinamicos" time elapsed: 00:00:00
+"Q2 - Excecoes e std::optional" end time: Aug 10 00:48 UTC
+"Q2 - Excecoes e std::optional" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/3 Testing: Interface Pura - Validacao de Contrato
-3/3 Test: Interface Pura - Validacao de Contrato
-Command: "/workspaces/Sistema-de-delivery/build/testes" "Interface Pura - Validacao de Contrato"
+3/4 Testing: Q4 - DIP e Memory Repository
+3/4 Test: Q4 - DIP e Memory Repository
+Command: "/workspaces/Sistema-de-delivery/build/testes" "Q4 - DIP e Memory Repository"
 Directory: /workspaces/Sistema-de-delivery/build
-"Interface Pura - Validacao de Contrato" start time: Jul 16 17:01 UTC
+"Q4 - DIP e Memory Repository" start time: Aug 10 00:48 UTC
 Output:
 ----------------------------------------------------------
-Filters: "Interface Pura - Validacao de Contrato"
-Randomness seeded to: 4233321303
-[Destrutor Derivada] food destruido: Marmita
-[Destrutor Base] product destruido: Marmita
+Filters: "Q4 - DIP e Memory Repository"
+Randomness seeded to: 4237979636
 ===============================================================================
-All tests passed (1 assertion in 1 test case)
+All tests passed (2 assertions in 1 test case)
 
 <end of output>
-Test time =   0.04 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"Interface Pura - Validacao de Contrato" end time: Jul 16 17:01 UTC
-"Interface Pura - Validacao de Contrato" time elapsed: 00:00:00
+"Q4 - DIP e Memory Repository" end time: Aug 10 00:48 UTC
+"Q4 - DIP e Memory Repository" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Jul 16 17:01 UTC
+4/4 Testing: Q3 - Concorrencia e Algoritmos STL
+4/4 Test: Q3 - Concorrencia e Algoritmos STL
+Command: "/workspaces/Sistema-de-delivery/build/testes" "Q3 - Concorrencia e Algoritmos STL"
+Directory: /workspaces/Sistema-de-delivery/build
+"Q3 - Concorrencia e Algoritmos STL" start time: Aug 10 00:48 UTC
+Output:
+----------------------------------------------------------
+Filters: "Q3 - Concorrencia e Algoritmos STL"
+Randomness seeded to: 502219435
+===============================================================================
+All tests passed (2 assertions in 1 test case)
+
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"Q3 - Concorrencia e Algoritmos STL" end time: Aug 10 00:48 UTC
+"Q3 - Concorrencia e Algoritmos STL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 10 00:48 UTC

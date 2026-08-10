@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Sistema_Delivery.dir/src/customer.cpp.o"
   "CMakeFiles/Sistema_Delivery.dir/src/customer.cpp.o.d"
+  "CMakeFiles/Sistema_Delivery.dir/src/delivery_system.cpp.o"
+  "CMakeFiles/Sistema_Delivery.dir/src/delivery_system.cpp.o.d"
   "CMakeFiles/Sistema_Delivery.dir/src/main.cpp.o"
   "CMakeFiles/Sistema_Delivery.dir/src/main.cpp.o.d"
   "CMakeFiles/Sistema_Delivery.dir/src/order.cpp.o"

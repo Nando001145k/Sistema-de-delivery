@@ -548,6 +548,7 @@ src/customer.o: src/customer.cpp.o
 # target to build an object file
 src/customer.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sistema_Delivery.dir/build.make CMakeFiles/Sistema_Delivery.dir/src/customer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/src/customer.cpp.o
 .PHONY : src/customer.cpp.o
 
 src/customer.i: src/customer.cpp.i
@@ -556,6 +557,7 @@ src/customer.i: src/customer.cpp.i
 # target to preprocess a source file
 src/customer.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sistema_Delivery.dir/build.make CMakeFiles/Sistema_Delivery.dir/src/customer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/src/customer.cpp.i
 .PHONY : src/customer.cpp.i
 
 src/customer.s: src/customer.cpp.s
@@ -564,7 +566,35 @@ src/customer.s: src/customer.cpp.s
 # target to generate assembly for a file
 src/customer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sistema_Delivery.dir/build.make CMakeFiles/Sistema_Delivery.dir/src/customer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/src/customer.cpp.s
 .PHONY : src/customer.cpp.s
+
+src/delivery_system.o: src/delivery_system.cpp.o
+.PHONY : src/delivery_system.o
+
+# target to build an object file
+src/delivery_system.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sistema_Delivery.dir/build.make CMakeFiles/Sistema_Delivery.dir/src/delivery_system.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/src/delivery_system.cpp.o
+.PHONY : src/delivery_system.cpp.o
+
+src/delivery_system.i: src/delivery_system.cpp.i
+.PHONY : src/delivery_system.i
+
+# target to preprocess a source file
+src/delivery_system.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sistema_Delivery.dir/build.make CMakeFiles/Sistema_Delivery.dir/src/delivery_system.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/src/delivery_system.cpp.i
+.PHONY : src/delivery_system.cpp.i
+
+src/delivery_system.s: src/delivery_system.cpp.s
+.PHONY : src/delivery_system.s
+
+# target to generate assembly for a file
+src/delivery_system.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sistema_Delivery.dir/build.make CMakeFiles/Sistema_Delivery.dir/src/delivery_system.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/src/delivery_system.cpp.s
+.PHONY : src/delivery_system.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -596,6 +626,7 @@ src/order.o: src/order.cpp.o
 # target to build an object file
 src/order.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sistema_Delivery.dir/build.make CMakeFiles/Sistema_Delivery.dir/src/order.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/src/order.cpp.o
 .PHONY : src/order.cpp.o
 
 src/order.i: src/order.cpp.i
@@ -604,6 +635,7 @@ src/order.i: src/order.cpp.i
 # target to preprocess a source file
 src/order.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sistema_Delivery.dir/build.make CMakeFiles/Sistema_Delivery.dir/src/order.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/src/order.cpp.i
 .PHONY : src/order.cpp.i
 
 src/order.s: src/order.cpp.s
@@ -612,6 +644,7 @@ src/order.s: src/order.cpp.s
 # target to generate assembly for a file
 src/order.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sistema_Delivery.dir/build.make CMakeFiles/Sistema_Delivery.dir/src/order.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/src/order.cpp.s
 .PHONY : src/order.cpp.s
 
 src/order_item.o: src/order_item.cpp.o
@@ -620,6 +653,7 @@ src/order_item.o: src/order_item.cpp.o
 # target to build an object file
 src/order_item.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sistema_Delivery.dir/build.make CMakeFiles/Sistema_Delivery.dir/src/order_item.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/src/order_item.cpp.o
 .PHONY : src/order_item.cpp.o
 
 src/order_item.i: src/order_item.cpp.i
@@ -628,6 +662,7 @@ src/order_item.i: src/order_item.cpp.i
 # target to preprocess a source file
 src/order_item.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sistema_Delivery.dir/build.make CMakeFiles/Sistema_Delivery.dir/src/order_item.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/src/order_item.cpp.i
 .PHONY : src/order_item.cpp.i
 
 src/order_item.s: src/order_item.cpp.s
@@ -636,6 +671,7 @@ src/order_item.s: src/order_item.cpp.s
 # target to generate assembly for a file
 src/order_item.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Sistema_Delivery.dir/build.make CMakeFiles/Sistema_Delivery.dir/src/order_item.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/src/order_item.cpp.s
 .PHONY : src/order_item.cpp.s
 
 src/product.o: src/product.cpp.o
@@ -665,29 +701,29 @@ src/product.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/src/product.cpp.s
 .PHONY : src/product.cpp.s
 
-tests/test_tp2.o: tests/test_tp2.cpp.o
-.PHONY : tests/test_tp2.o
+tests/test_tp3.o: tests/test_tp3.cpp.o
+.PHONY : tests/test_tp3.o
 
 # target to build an object file
-tests/test_tp2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/tests/test_tp2.cpp.o
-.PHONY : tests/test_tp2.cpp.o
+tests/test_tp3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/tests/test_tp3.cpp.o
+.PHONY : tests/test_tp3.cpp.o
 
-tests/test_tp2.i: tests/test_tp2.cpp.i
-.PHONY : tests/test_tp2.i
+tests/test_tp3.i: tests/test_tp3.cpp.i
+.PHONY : tests/test_tp3.i
 
 # target to preprocess a source file
-tests/test_tp2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/tests/test_tp2.cpp.i
-.PHONY : tests/test_tp2.cpp.i
+tests/test_tp3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/tests/test_tp3.cpp.i
+.PHONY : tests/test_tp3.cpp.i
 
-tests/test_tp2.s: tests/test_tp2.cpp.s
-.PHONY : tests/test_tp2.s
+tests/test_tp3.s: tests/test_tp3.cpp.s
+.PHONY : tests/test_tp3.s
 
 # target to generate assembly for a file
-tests/test_tp2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/tests/test_tp2.cpp.s
-.PHONY : tests/test_tp2.cpp.s
+tests/test_tp3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testes.dir/build.make CMakeFiles/testes.dir/tests/test_tp3.cpp.s
+.PHONY : tests/test_tp3.cpp.s
 
 # Help Target
 help:
@@ -733,6 +769,9 @@ help:
 	@echo "... src/customer.o"
 	@echo "... src/customer.i"
 	@echo "... src/customer.s"
+	@echo "... src/delivery_system.o"
+	@echo "... src/delivery_system.i"
+	@echo "... src/delivery_system.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -745,9 +784,9 @@ help:
 	@echo "... src/product.o"
 	@echo "... src/product.i"
 	@echo "... src/product.s"
-	@echo "... tests/test_tp2.o"
-	@echo "... tests/test_tp2.i"
-	@echo "... tests/test_tp2.s"
+	@echo "... tests/test_tp3.o"
+	@echo "... tests/test_tp3.i"
+	@echo "... tests/test_tp3.s"
 .PHONY : help
 
 

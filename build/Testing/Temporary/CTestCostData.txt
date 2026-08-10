@@ -1,7 +1,5 @@
-Hierarquia 0 0
-Polimorfismo 0 0
-Interface 0 0
-Hierarquia - Construtor Base e Derivada 1 0.0359824
-Polimorfismo - Calculo exato de precos dinamicos 1 0.0366141
-Interface Pura - Validacao de Contrato 1 0.0380527
+Q1 - Generic Registry e Concept calculable 1 0.313453
+Q2 - Excecoes e std::optional 1 0.0447535
+Q4 - DIP e Memory Repository 1 0.0569706
+Q3 - Concorrencia e Algoritmos STL 1 0.0557185
 ---

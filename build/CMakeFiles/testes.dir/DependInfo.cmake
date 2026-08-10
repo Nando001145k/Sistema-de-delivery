@@ -8,8 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/workspaces/Sistema-de-delivery/src/customer.cpp" "CMakeFiles/testes.dir/src/customer.cpp.o" "gcc" "CMakeFiles/testes.dir/src/customer.cpp.o.d"
+  "/workspaces/Sistema-de-delivery/src/delivery_system.cpp" "CMakeFiles/testes.dir/src/delivery_system.cpp.o" "gcc" "CMakeFiles/testes.dir/src/delivery_system.cpp.o.d"
+  "/workspaces/Sistema-de-delivery/src/order.cpp" "CMakeFiles/testes.dir/src/order.cpp.o" "gcc" "CMakeFiles/testes.dir/src/order.cpp.o.d"
+  "/workspaces/Sistema-de-delivery/src/order_item.cpp" "CMakeFiles/testes.dir/src/order_item.cpp.o" "gcc" "CMakeFiles/testes.dir/src/order_item.cpp.o.d"
   "/workspaces/Sistema-de-delivery/src/product.cpp" "CMakeFiles/testes.dir/src/product.cpp.o" "gcc" "CMakeFiles/testes.dir/src/product.cpp.o.d"
-  "/workspaces/Sistema-de-delivery/tests/test_tp2.cpp" "CMakeFiles/testes.dir/tests/test_tp2.cpp.o" "gcc" "CMakeFiles/testes.dir/tests/test_tp2.cpp.o.d"
+  "/workspaces/Sistema-de-delivery/tests/test_tp3.cpp" "CMakeFiles/testes.dir/tests/test_tp3.cpp.o" "gcc" "CMakeFiles/testes.dir/tests/test_tp3.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

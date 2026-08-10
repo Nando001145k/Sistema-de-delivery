@@ -69,24 +69,38 @@ include CMakeFiles/testes.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/testes.dir/flags.make
 
-CMakeFiles/testes.dir/tests/test_tp2.cpp.o: CMakeFiles/testes.dir/flags.make
-CMakeFiles/testes.dir/tests/test_tp2.cpp.o: /workspaces/Sistema-de-delivery/tests/test_tp2.cpp
-CMakeFiles/testes.dir/tests/test_tp2.cpp.o: CMakeFiles/testes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Sistema-de-delivery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testes.dir/tests/test_tp2.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testes.dir/tests/test_tp2.cpp.o -MF CMakeFiles/testes.dir/tests/test_tp2.cpp.o.d -o CMakeFiles/testes.dir/tests/test_tp2.cpp.o -c /workspaces/Sistema-de-delivery/tests/test_tp2.cpp
+CMakeFiles/testes.dir/tests/test_tp3.cpp.o: CMakeFiles/testes.dir/flags.make
+CMakeFiles/testes.dir/tests/test_tp3.cpp.o: /workspaces/Sistema-de-delivery/tests/test_tp3.cpp
+CMakeFiles/testes.dir/tests/test_tp3.cpp.o: CMakeFiles/testes.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Sistema-de-delivery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testes.dir/tests/test_tp3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testes.dir/tests/test_tp3.cpp.o -MF CMakeFiles/testes.dir/tests/test_tp3.cpp.o.d -o CMakeFiles/testes.dir/tests/test_tp3.cpp.o -c /workspaces/Sistema-de-delivery/tests/test_tp3.cpp
 
-CMakeFiles/testes.dir/tests/test_tp2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testes.dir/tests/test_tp2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Sistema-de-delivery/tests/test_tp2.cpp > CMakeFiles/testes.dir/tests/test_tp2.cpp.i
+CMakeFiles/testes.dir/tests/test_tp3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testes.dir/tests/test_tp3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Sistema-de-delivery/tests/test_tp3.cpp > CMakeFiles/testes.dir/tests/test_tp3.cpp.i
 
-CMakeFiles/testes.dir/tests/test_tp2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testes.dir/tests/test_tp2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Sistema-de-delivery/tests/test_tp2.cpp -o CMakeFiles/testes.dir/tests/test_tp2.cpp.s
+CMakeFiles/testes.dir/tests/test_tp3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testes.dir/tests/test_tp3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Sistema-de-delivery/tests/test_tp3.cpp -o CMakeFiles/testes.dir/tests/test_tp3.cpp.s
+
+CMakeFiles/testes.dir/src/customer.cpp.o: CMakeFiles/testes.dir/flags.make
+CMakeFiles/testes.dir/src/customer.cpp.o: /workspaces/Sistema-de-delivery/src/customer.cpp
+CMakeFiles/testes.dir/src/customer.cpp.o: CMakeFiles/testes.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Sistema-de-delivery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testes.dir/src/customer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testes.dir/src/customer.cpp.o -MF CMakeFiles/testes.dir/src/customer.cpp.o.d -o CMakeFiles/testes.dir/src/customer.cpp.o -c /workspaces/Sistema-de-delivery/src/customer.cpp
+
+CMakeFiles/testes.dir/src/customer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testes.dir/src/customer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Sistema-de-delivery/src/customer.cpp > CMakeFiles/testes.dir/src/customer.cpp.i
+
+CMakeFiles/testes.dir/src/customer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testes.dir/src/customer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Sistema-de-delivery/src/customer.cpp -o CMakeFiles/testes.dir/src/customer.cpp.s
 
 CMakeFiles/testes.dir/src/product.cpp.o: CMakeFiles/testes.dir/flags.make
 CMakeFiles/testes.dir/src/product.cpp.o: /workspaces/Sistema-de-delivery/src/product.cpp
 CMakeFiles/testes.dir/src/product.cpp.o: CMakeFiles/testes.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Sistema-de-delivery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testes.dir/src/product.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Sistema-de-delivery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/testes.dir/src/product.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testes.dir/src/product.cpp.o -MF CMakeFiles/testes.dir/src/product.cpp.o.d -o CMakeFiles/testes.dir/src/product.cpp.o -c /workspaces/Sistema-de-delivery/src/product.cpp
 
 CMakeFiles/testes.dir/src/product.cpp.i: cmake_force
@@ -97,21 +111,71 @@ CMakeFiles/testes.dir/src/product.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testes.dir/src/product.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Sistema-de-delivery/src/product.cpp -o CMakeFiles/testes.dir/src/product.cpp.s
 
+CMakeFiles/testes.dir/src/order_item.cpp.o: CMakeFiles/testes.dir/flags.make
+CMakeFiles/testes.dir/src/order_item.cpp.o: /workspaces/Sistema-de-delivery/src/order_item.cpp
+CMakeFiles/testes.dir/src/order_item.cpp.o: CMakeFiles/testes.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Sistema-de-delivery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/testes.dir/src/order_item.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testes.dir/src/order_item.cpp.o -MF CMakeFiles/testes.dir/src/order_item.cpp.o.d -o CMakeFiles/testes.dir/src/order_item.cpp.o -c /workspaces/Sistema-de-delivery/src/order_item.cpp
+
+CMakeFiles/testes.dir/src/order_item.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testes.dir/src/order_item.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Sistema-de-delivery/src/order_item.cpp > CMakeFiles/testes.dir/src/order_item.cpp.i
+
+CMakeFiles/testes.dir/src/order_item.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testes.dir/src/order_item.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Sistema-de-delivery/src/order_item.cpp -o CMakeFiles/testes.dir/src/order_item.cpp.s
+
+CMakeFiles/testes.dir/src/order.cpp.o: CMakeFiles/testes.dir/flags.make
+CMakeFiles/testes.dir/src/order.cpp.o: /workspaces/Sistema-de-delivery/src/order.cpp
+CMakeFiles/testes.dir/src/order.cpp.o: CMakeFiles/testes.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Sistema-de-delivery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/testes.dir/src/order.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testes.dir/src/order.cpp.o -MF CMakeFiles/testes.dir/src/order.cpp.o.d -o CMakeFiles/testes.dir/src/order.cpp.o -c /workspaces/Sistema-de-delivery/src/order.cpp
+
+CMakeFiles/testes.dir/src/order.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testes.dir/src/order.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Sistema-de-delivery/src/order.cpp > CMakeFiles/testes.dir/src/order.cpp.i
+
+CMakeFiles/testes.dir/src/order.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testes.dir/src/order.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Sistema-de-delivery/src/order.cpp -o CMakeFiles/testes.dir/src/order.cpp.s
+
+CMakeFiles/testes.dir/src/delivery_system.cpp.o: CMakeFiles/testes.dir/flags.make
+CMakeFiles/testes.dir/src/delivery_system.cpp.o: /workspaces/Sistema-de-delivery/src/delivery_system.cpp
+CMakeFiles/testes.dir/src/delivery_system.cpp.o: CMakeFiles/testes.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Sistema-de-delivery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/testes.dir/src/delivery_system.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/testes.dir/src/delivery_system.cpp.o -MF CMakeFiles/testes.dir/src/delivery_system.cpp.o.d -o CMakeFiles/testes.dir/src/delivery_system.cpp.o -c /workspaces/Sistema-de-delivery/src/delivery_system.cpp
+
+CMakeFiles/testes.dir/src/delivery_system.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/testes.dir/src/delivery_system.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Sistema-de-delivery/src/delivery_system.cpp > CMakeFiles/testes.dir/src/delivery_system.cpp.i
+
+CMakeFiles/testes.dir/src/delivery_system.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/testes.dir/src/delivery_system.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Sistema-de-delivery/src/delivery_system.cpp -o CMakeFiles/testes.dir/src/delivery_system.cpp.s
+
 # Object files for target testes
 testes_OBJECTS = \
-"CMakeFiles/testes.dir/tests/test_tp2.cpp.o" \
-"CMakeFiles/testes.dir/src/product.cpp.o"
+"CMakeFiles/testes.dir/tests/test_tp3.cpp.o" \
+"CMakeFiles/testes.dir/src/customer.cpp.o" \
+"CMakeFiles/testes.dir/src/product.cpp.o" \
+"CMakeFiles/testes.dir/src/order_item.cpp.o" \
+"CMakeFiles/testes.dir/src/order.cpp.o" \
+"CMakeFiles/testes.dir/src/delivery_system.cpp.o"
 
 # External object files for target testes
 testes_EXTERNAL_OBJECTS =
 
-testes: CMakeFiles/testes.dir/tests/test_tp2.cpp.o
+testes: CMakeFiles/testes.dir/tests/test_tp3.cpp.o
+testes: CMakeFiles/testes.dir/src/customer.cpp.o
 testes: CMakeFiles/testes.dir/src/product.cpp.o
+testes: CMakeFiles/testes.dir/src/order_item.cpp.o
+testes: CMakeFiles/testes.dir/src/order.cpp.o
+testes: CMakeFiles/testes.dir/src/delivery_system.cpp.o
 testes: CMakeFiles/testes.dir/build.make
 testes: _deps/catch2-build/src/libCatch2Maind.a
 testes: _deps/catch2-build/src/libCatch2d.a
 testes: CMakeFiles/testes.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/Sistema-de-delivery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable testes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/Sistema-de-delivery/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable testes"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testes.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/cmake -D TEST_TARGET=testes -D TEST_EXECUTABLE=/workspaces/Sistema-de-delivery/build/testes -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/workspaces/Sistema-de-delivery/build -D TEST_SPEC= -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_LIST=testes_TESTS -D TEST_REPORTER= -D TEST_OUTPUT_DIR= -D TEST_OUTPUT_PREFIX= -D TEST_OUTPUT_SUFFIX= -D TEST_DL_PATHS= -D CTEST_FILE=/workspaces/Sistema-de-delivery/build/testes-b12d07c_tests.cmake -P /workspaces/Sistema-de-delivery/build/_deps/catch2-src/extras/CatchAddTests.cmake
 

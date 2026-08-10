@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/workspaces/Sistema-de-delivery/src
+CXX_INCLUDES = -I/workspaces/Sistema-de-delivery/src -I/workspaces/Sistema-de-delivery/build/_deps/json-src/include
 
-CXX_FLAGS = -g -std=gnu++17 -Wall -Wextra -fsanitize=address,undefined -g
+CXX_FLAGS = -g -std=gnu++20 -Wall -Wextra -fsanitize=address,undefined -g
 

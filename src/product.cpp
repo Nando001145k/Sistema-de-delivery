@@ -3,10 +3,7 @@
 product::product(int id, std::string name, double price)
     : id_(id), name_(name), price_(price) {}
 
-product::~product() {
-    std::cout << "[Destrutor Base] product destruido: " << name_ << "\n";
-}
-
+int product::get_id() const { return id_; }
 std::string product::get_name() const { return name_; }
 double product::get_price() const { return price_; }
 
@@ -22,13 +19,7 @@ void product::display() const {
 
 food::food(int id, std::string name, double price) : product(id, name, price) {}
 
-food::~food() {
-    std::cout << "[Destrutor Derivada] food destruido: " << name_ << "\n";
-}
-
-double food::calculate_price() const {
-    return price_ * 1.10; 
-}
+double food::calculate_price() const { return price_ * 1.10; }
 
 void food::display() const {
     product::display();
@@ -36,19 +27,22 @@ void food::display() const {
 }
 
 void food::prepare() const {
-    std::cout << "Preparando a comida na cozinha: " << name_ << "\n";
+    std::cout << "Preparando comida: " << name_ << "\n";
 }
 
 beverage::beverage(int id, std::string name, double price) : product(id, name, price) {}
 
-beverage::~beverage() {
-    std::cout << "[Destrutor Derivada] beverage destruido: " << name_ << "\n";
-}
-
-double beverage::calculate_price() const {
-    return price_;
-}
+double beverage::calculate_price() const { return price_; }
 
 void beverage::display() const {
-    std::cout << "Bebida Gelada [" << id_ << "]: " << name_ << " | Preco final: R$ " << calculate_price() << "\n";
+    std::cout << "Bebida Gelada [" << id_ << "]: " << name_ << " | Preco: R$ " << calculate_price() << "\n";
+}
+
+void to_json(json& j, const product& p) {
+    j = json{
+        {"type", p.type_name()},
+        {"id", p.get_id()},
+        {"name", p.get_name()},
+        {"price", p.get_price()}
+    };
 }
