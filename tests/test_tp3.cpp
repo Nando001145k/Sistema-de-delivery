@@ -1,15 +1,17 @@
 #include <catch2/catch_test_macros.hpp>
 #include <catch2/catch_approx.hpp>
-#include "../src/generic_registry.hpp"
-#include "../src/domain_exceptions.hpp"
-#include "../src/repository.hpp"
-#include "../src/delivery_system.hpp"
+
+#include "generic_registry.hpp"
+#include "domain_exceptions.hpp"
+#include "repository.hpp"
+#include "delivery_system.hpp"
 
 TEST_CASE("Q1 - Generic Registry e Concept calculable", "[Q1]") {
     generic_registry<food> reg;
     reg.add(food(1, "Pizza", 40.0));
     REQUIRE(reg.size() == 1);
-    REQUIRE(reg.calculate_total_sum() == Catch::Approx(44.0));
+    REQUIRE(reg.calculate_total_sum() == Catch::Approx(44.0)); 
+}
 
 TEST_CASE("Q2 - Excecoes e std::optional", "[Q2]") {
     memory_repository repo;
@@ -40,3 +42,4 @@ TEST_CASE("Q3 - Concorrencia e Algoritmos STL", "[Q3]") {
 
     REQUIRE(sys.count_products_above_price(10.0) == 1);
     REQUIRE(sys.process_prices_in_parallel() == Catch::Approx(32.5)); 
+}

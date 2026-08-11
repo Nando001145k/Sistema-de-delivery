@@ -1,5 +1,5 @@
-Q1 - Generic Registry e Concept calculable 1 0.313453
-Q2 - Excecoes e std::optional 1 0.0447535
-Q4 - DIP e Memory Repository 1 0.0569706
-Q3 - Concorrencia e Algoritmos STL 1 0.0557185
+Q1 - Generic Registry e Concept calculable 1 0.0391701
+Q2 - Excecoes e std::optional 1 0.0478456
+Q4 - DIP e Memory Repository 1 0.0639831
+Q3 - Concorrencia e Algoritmos STL 1 0.0559135
 ---

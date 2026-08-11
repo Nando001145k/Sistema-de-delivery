@@ -1,34 +1,14 @@
-Start testing: Aug 10 00:48 UTC
+Start testing: Aug 11 13:37 UTC
 ----------------------------------------------------------
 1/4 Testing: Q1 - Generic Registry e Concept calculable
 1/4 Test: Q1 - Generic Registry e Concept calculable
 Command: "/workspaces/Sistema-de-delivery/build/testes" "Q1 - Generic Registry e Concept calculable"
 Directory: /workspaces/Sistema-de-delivery/build
-"Q1 - Generic Registry e Concept calculable" start time: Aug 10 00:48 UTC
+"Q1 - Generic Registry e Concept calculable" start time: Aug 11 13:37 UTC
 Output:
 ----------------------------------------------------------
 Filters: "Q1 - Generic Registry e Concept calculable"
-Randomness seeded to: 2351532882
-===============================================================================
-All tests passed (2 assertions in 1 test case)
-
-<end of output>
-Test time =   0.31 sec
-----------------------------------------------------------
-Test Passed.
-"Q1 - Generic Registry e Concept calculable" end time: Aug 10 00:48 UTC
-"Q1 - Generic Registry e Concept calculable" time elapsed: 00:00:00
-----------------------------------------------------------
-
-2/4 Testing: Q2 - Excecoes e std::optional
-2/4 Test: Q2 - Excecoes e std::optional
-Command: "/workspaces/Sistema-de-delivery/build/testes" "Q2 - Excecoes e std::optional"
-Directory: /workspaces/Sistema-de-delivery/build
-"Q2 - Excecoes e std::optional" start time: Aug 10 00:48 UTC
-Output:
-----------------------------------------------------------
-Filters: "Q2 - Excecoes e std::optional"
-Randomness seeded to: 2547220859
+Randomness seeded to: 3006860664
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -36,7 +16,27 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"Q2 - Excecoes e std::optional" end time: Aug 10 00:48 UTC
+"Q1 - Generic Registry e Concept calculable" end time: Aug 11 13:37 UTC
+"Q1 - Generic Registry e Concept calculable" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: Q2 - Excecoes e std::optional
+2/4 Test: Q2 - Excecoes e std::optional
+Command: "/workspaces/Sistema-de-delivery/build/testes" "Q2 - Excecoes e std::optional"
+Directory: /workspaces/Sistema-de-delivery/build
+"Q2 - Excecoes e std::optional" start time: Aug 11 13:37 UTC
+Output:
+----------------------------------------------------------
+Filters: "Q2 - Excecoes e std::optional"
+Randomness seeded to: 595133509
+===============================================================================
+All tests passed (2 assertions in 1 test case)
+
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"Q2 - Excecoes e std::optional" end time: Aug 11 13:37 UTC
 "Q2 - Excecoes e std::optional" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -44,11 +44,11 @@ Test Passed.
 3/4 Test: Q4 - DIP e Memory Repository
 Command: "/workspaces/Sistema-de-delivery/build/testes" "Q4 - DIP e Memory Repository"
 Directory: /workspaces/Sistema-de-delivery/build
-"Q4 - DIP e Memory Repository" start time: Aug 10 00:48 UTC
+"Q4 - DIP e Memory Repository" start time: Aug 11 13:37 UTC
 Output:
 ----------------------------------------------------------
 Filters: "Q4 - DIP e Memory Repository"
-Randomness seeded to: 4237979636
+Randomness seeded to: 751040362
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -56,7 +56,7 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"Q4 - DIP e Memory Repository" end time: Aug 10 00:48 UTC
+"Q4 - DIP e Memory Repository" end time: Aug 11 13:37 UTC
 "Q4 - DIP e Memory Repository" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -64,11 +64,11 @@ Test Passed.
 4/4 Test: Q3 - Concorrencia e Algoritmos STL
 Command: "/workspaces/Sistema-de-delivery/build/testes" "Q3 - Concorrencia e Algoritmos STL"
 Directory: /workspaces/Sistema-de-delivery/build
-"Q3 - Concorrencia e Algoritmos STL" start time: Aug 10 00:48 UTC
+"Q3 - Concorrencia e Algoritmos STL" start time: Aug 11 13:37 UTC
 Output:
 ----------------------------------------------------------
 Filters: "Q3 - Concorrencia e Algoritmos STL"
-Randomness seeded to: 502219435
+Randomness seeded to: 3196873306
 ===============================================================================
 All tests passed (2 assertions in 1 test case)
 
@@ -76,8 +76,8 @@ All tests passed (2 assertions in 1 test case)
 Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"Q3 - Concorrencia e Algoritmos STL" end time: Aug 10 00:48 UTC
+"Q3 - Concorrencia e Algoritmos STL" end time: Aug 11 13:37 UTC
 "Q3 - Concorrencia e Algoritmos STL" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Aug 10 00:48 UTC
+End testing: Aug 11 13:37 UTC
